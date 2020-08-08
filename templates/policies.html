@@ -1,0 +1,485 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- services08:37-->
+<head>
+<meta charset="utf-8">
+<title>DIC - Factory, Industry, and Manufacturing | Services</title>
+<!-- Stylesheets -->
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'css/style.css' %}" rel="stylesheet">
+<link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+<!--Color Switcher Mockup-->
+<link href="{% static 'css/color-switcher-design.css' %}" rel="stylesheet">
+
+<!--Color Themes-->
+<link id="theme-color-file" href="{% static 'css/color-themes/default-theme.css' %}" rel="stylesheet">
+<link rel="shortcut icon" href="{% static 'images/logosmall.png' %}" type="image/x-icon">
+<link rel="icon" href="{% static 'images/logosmall.png' %}" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="{% static 'js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+     <div class="logo-box">
+                        <div class="logo"><a href="home"><img src="{% static 'welcome.png' %}" alt="" title=""></a></div>
+                    </div>
+
+    <!-- Sidenav Bar -->
+    <section class="sidenav-bar">
+        <div class="nav-box">
+            <div class="inner-box">
+                <div class="upper-box">
+                    <div class="btn-box"><button class="close-btn"><span class="fa fa-times"></span></button></div>
+                </div>
+
+                <!-- .Side Nav -->
+                <nav class="side-nav">
+                    <ul class="navigation clearfix" id="nav">
+                        <li class="dropdown"><a href="home">Home</a>
+                            <ul>
+                                <li><a href="home">Home Showcase</a></li>
+                                <li><a href="index3">Home Carousel</a></li>
+                                <li><a href="index4">Home Banner</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="aboutus">About</a>
+                            <ul>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="about-me.html">About Me</a></li>
+                                <li><a href="faqs.html">FAQ's</a></li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                            </ul>
+                        </li>
+                        <li class="current dropdown"><a href="services">Services</a>
+                            <ul>
+                                <li><a href="services.html">All Services</a></li>
+                                <li><a href="service-detail.html">Civil Enginerring</a></li>
+                                <li><a href="service-detail.html">Oil & Gas Engineering</a></li>
+                                <li><a href="service-detail.html">Chemical Engineering</a></li>
+                                <li><a href="service-detail.html">Agriculture Engineering</a></li>
+                                <li><a href="service-detail.html">Mechanical Engineering</a></li>
+                                <li><a href="service-detail.html">Service Detail</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="projects">Projects</a>
+                            <ul>
+                                <li><a href="projects.html">Project with Filters</a></li>
+                                <li><a href="projects-2.html">Project Slide Show</a></li>
+                                <li><a href="project-detail.html">Project Detail</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="blog.html">Blog</a>
+                            <ul>
+                                <li><a href="blog.html">Blog with Sidebar</a></li>
+                                <li><a href="blog-grid.html">Blog Grid View</a></li>
+                                <li><a href="blog-single.html">Blog Single</a></li>
+                                <li><a href="error-page.html">Error Page</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul> 
+                </nav><!-- /.Side-menu -->
+
+                <div class="contact-info-box">
+                    <!--Info Box-->
+                    <div class="info-box">
+                        <div class="icon-box"><span class="fa fa-home"></span></div>
+                        <p>13005 Greenville Avenue <br>United Kingdom, TX 70240</p>
+                    </div>
+
+                    <!--Info Box-->
+                    <div class="info-box">
+                        <div class="icon-box"><span class="far fa-clock"></span></div>
+                        <p>Mon - Fri: 09:00 - 18:00</p>
+                        <p>Sunday --- Close</p>
+                    </div>
+
+                    <!--Info Box-->
+                    <div class="info-box">
+                        <div class="icon-box"><span class="far fa-envelope"></span></div>
+                        <p><a href="tel:(888)123456789">(888) 123 456 789</a></p>
+                        <p><a href="mailto:support@example.com">support@example.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Sidenav Bar -->
+
+         <!-- Services Section -->
+        <section class="services-section-two">
+            <div class="auto-container">
+                <div class="sec-title text-center">
+                    <span class="float-text">ALLPOLICES</span>
+                    <h2>ALL <span>POLICES</span></h2>
+                </div>
+
+                <div class="row">
+                    <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_tech"><img src="{% static 'images/resource/aerospace.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_tech">AEROSPACE POLICY 2013-2023 (WITH AMENDMENTS)</a></h3>
+                                <a href="service_tech" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_power"><img src="{% static 'images/resource/service-2.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_power">AGRI BUSINESS _ FOOD PROCESSING POLICY-2015</a></h3>
+                                <a href="service_power" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance">BIOTECH POLICY II</a></h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_land"><img src="{% static 'images/resource/unnamed.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_land">ELECTRONICS HARDWARE POLICY</a></h3>
+                                <a href="service_land" class="read-more">Downloads</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_auto"><img src="{% static 'images/resource/service-5.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_auto">INDUSTRIAL POLICY-2014-19 (WITH AMENDMENTS)</a></h3>
+                                <a href="service_auto" class="read-more">Downloads</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_water"><img src="{% static 'images/resource/technologyservices.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_water">INFORMATION AND COMMUNICATIONS TECHNOLOGY POLICY 2011</a></h3>
+                                <a href="service_water" class="read-more">Downloads</a>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance">INFRASTRUCTURE POLICY-2015</a></h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                     <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance">KARNATAKA ANIMATION VISUAL EFFECTS GAMING AND COMICS POLICY</a></h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                      <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance">KARNATAKA GRAPE PROCESSING AND WINE POLICY - 2007</a></h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                     <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance"></a>KARNATAKA MINERAL POLICY 2008</h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                      <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance"></a>KARNATAKA SEZ POLICY-2009 (WITH AMENDMENTS)</h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                      <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance"></a>LABOR POLICY_30-05-2012</h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                      <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance"></a>NRI POLICY 2016</h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                      <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance"></a>RETAIL TRADE POLICY-2015</h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                      <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance"></a>SEMICONDUCTOR POLICY</h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                      <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance"></a>SOLAR POLICY 2014-2021</h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                      <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance"></a>STARTUP-POLICY2015-2020</h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                      <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance"></a>TEXTILE POLICY-NUTHANA JAVALI NEETI(WITH AMENDMENTS)-2013-18</h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+                      <!-- service Block -->
+                    <div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service_finance"><img src="{% static 'images/resource/service-6.jpg' %}" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service_finance"></a>TOURISM POLICY 2015-2020</h3>
+                                <a href="service_finance" class="read-more">Download</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- service Block -->
+
+
+                </div>
+            </div>
+        </section>
+        <!-- End service Section -->
+
+
+
+
+
+        <!-- Clients Section -->
+        <section class="clients-section">
+            <div class="auto-container">
+                <div class="sponsors-outer">
+                    <!--Sponsors Carousel-->
+                    <ul class="sponsors-carousel owl-carousel owl-theme">
+                        <li class="slide-item"><figure class="image"><a href="#"><img src="{% static 'images/clients/1.png' %}" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image"><a href="#"><img src="{% static 'images/clients/2.png' %}" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image"><a href="#"><img src="{% static 'images/clients/3.png' %}" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image"><a href="#"><img src="{% static 'images/clients/4.png' %}" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image"><a href="#"><img src="{% static 'images/clients/5.png' %}" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image"><a href="#"><img src="{% static 'images/clients/1.png' %}" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image"><a href="#"><img src="{% static 'images/clients/2.png' %}" alt=""></a></figure></li>
+                        <li class="slide-item"><figure class="image"><a href="#"><img src="{% static 'images/clients/3.png' %}" alt=""></a></figure></li>
+                    </ul>
+                </div>
+            </div>        
+        </section>
+        <!-- End Clients Section -->
+
+
+    </main>
+    <!-- End Main Content -->
+</div>
+
+<!-- Scroll To Top -->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+<!-- Color Palate / Color Switcher -->
+<div class="color-palate">
+    <div class="color-trigger">
+        <i class="fa fa-cog"></i>
+    </div>
+    <div class="color-palate-head">
+        <h6>Choose Your Color</h6>
+    </div>
+    <div class="various-color clearfix">
+        <div class="colors-list">
+            <span class="palate default-color active" data-theme-file="{% static 'css/color-themes/default-theme.css' %}"></span>
+            <span class="palate green-color" data-theme-file="{% static 'css/color-themes/green-theme.css' %}"></span>
+            <span class="palate blue-color" data-theme-file="{% static 'css/color-themes/blue-theme.css' %}"></span>
+            <span class="palate orange-color" data-theme-file="{% static 'css/color-themes/orange-theme.css' %}"></span>
+            <span class="palate purple-color" data-theme-file="{% static 'css/color-themes/purple-theme.css' %}"></span>
+            <span class="palate teal-color" data-theme-file="{% static 'css/color-themes/teal-theme.css' %}"></span>
+            <span class="palate brown-color" data-theme-file="{% static 'css/color-themes/brown-theme.css' %}"></span>
+            <span class="palate redd-color" data-theme-file="{% static 'css/color-themes/redd-color.css' %}"></span>
+        </div>
+    </div>
+    
+    <div class="palate-foo">
+        <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
+    </div>
+    
+</div><!-- End Color Switcher -->
+
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/owl.js' %}"></script>
+<script src="{% static 'js/wow.js' %}"></script>
+<script src="{% static 'js/mixitup.js' %}"></script>
+<script src="{% static 'js/appear.js' %}"></script>
+<script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+<script src="{% static 'js/jquery.fancybox.js' %}"></script>
+<script src="{% static 'js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+<script src="{% static 'js/swiper.min.js' %}"></script>
+<script src="{% static 'js/TweenMax.min.js' %}"></script>
+<script src="{% static 'js/script.js' %}"></script>
+<!-- Color Setting -->
+<script src="{% static 'js/color-settings.js' %}"></script>
+</body>
+
+<!-- services08:37-->
+</html>

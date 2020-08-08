@@ -1,0 +1,33 @@
+from django.urls import path
+from . import views
+
+urlpatterns=[
+path('',views.home,name='home'),
+    path('home',views.home,name="index1"),
+    path('index2',views.index2,name="index2"),
+    path('index3',views.index3,name="index3"),
+    path('index4',views.index4,name="index4"),
+    path('aboutus',views.aboutus,name="aboutus"),
+    path('services',views.services,name="services"),
+    path('policies',views.policies,name="policies"),
+    path('contact',views.contact,name="contact"),
+    path('contact1',views.contact1,name="contact1"),
+    path('service-detail',views.service_details,name="servicedetails"),
+    path('service_auto',views.service_auto,name="auto"),
+    path('service_finance',views.service_finance,name="finance"),
+    path('service_land',views.service_land,name="land"),
+    path('service_power',views.service_power,name="power"),
+    path('service_tech',views.service_tech,name="tech"),
+    path('service_water',views.service_water,name="water"),
+    path('gos',views.gos,name='gos'),
+    path('acts',views.acts,name='acts'),
+    path('dept',views.dept,name='related department'),
+    path('mainscheme',views.mainscheme,name='mainscheme'),
+    path('rural',views.ruler,name='ruler'),
+    path('dicschemes',views.dicschemes,name='dicscheme'),
+    path('schemes',views.schemepage,name='schemepage'),
+    path('invest',views.invest,name='invest'),
+    path('why',views.why,name='why'),
+    path('district',views.district,name='district'),
+    path('indust',views.indust,name='indust'),
+]
